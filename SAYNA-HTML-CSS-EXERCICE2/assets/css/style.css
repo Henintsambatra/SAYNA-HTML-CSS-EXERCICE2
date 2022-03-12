@@ -1,0 +1,274 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900');
+
+/* Fond de la page Web */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif, 'Raleway';
+}
+
+.containeur {
+    padding-top: -2%;
+    height: 400%;
+    background-color: var(--Sayna);
+}
+
+:root {
+    --Good-color: #7e7e7e;
+    --zoubida: #3d9f96;
+    --Sayna: #27242b;
+}
+
+
+/* Header */
+
+header {
+    overflow: hidden;
+    height: 15vh;
+    padding: 1%;
+    background-color: var(--Sayna);
+}
+
+header h1 {
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header h1>a {
+    margin: 1em;
+    float: left;
+    color: #FFFFFF;
+    display: inline;
+    padding: -5% 0%;
+    text-decoration: none;
+}
+
+#lien {
+    float: right;
+    margin: 2% 10%;
+    display: block;
+}
+
+#lien a {
+    color: var(--zoubida);
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.img {
+    width: 25%;
+    height: 55%;
+    margin-left: 8%;
+    padding: 15px;
+}
+
+
+/*End Header*/
+
+
+/*line*/
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--Good-color);
+}
+
+
+/*Contenu*/
+
+.Title {
+    color: #FFFFFF;
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    font-size: 42px;
+}
+
+.titleNew {
+    color: var(--zoubida);
+    font-size: 18px;
+}
+
+#p1 {
+    color: #FFFFFF;
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+}
+
+
+/* Button */
+
+.btn-Buy-Now {
+    background-color: var(--zoubida);
+    border: none;
+    color: #FFFFFF;
+    padding: 20px 60px;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Raleway', Arial, sans-serif;
+    margin: 8% 40%;
+    border-radius: 4rem;
+}
+
+
+/* Ordinateur  */
+
+#computer {
+    width: 70%;
+    margin: -0.3% 12%;
+    padding: 0px 10px;
+}
+
+
+/*Nav 2 scocial*/
+
+#header-nav {
+    width: 100%;
+    height: 10%;
+    background-color: #f9f9f9;
+}
+
+.media-icon {
+    margin-left: 25%;
+}
+
+.icon {
+    margin: 1em;
+    padding: 0%;
+    margin-top: 5%;
+}
+
+.subtitle {
+    margin-left: 23%;
+    color: var(--zoubida);
+    padding-bottom: 5%;
+}
+
+
+/*End Nav scocial*/
+
+.containeur2 {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 200%;
+}
+
+.new {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.p2 {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+/*Background Awesomeness*/
+
+#Awesomeness {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/map_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-flex;
+}
+
+.iphone {
+    width: 200px;
+    padding: 20% 5%;
+    margin: 10% 8%;
+}
+
+.col1 {
+    margin: 0% 5%;
+    padding: 5% 5%;
+    list-style: none;
+    color: var(--Good-color);
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.col1 ul li h3 {
+    color: #1a1818;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.col1 ul {
+    list-style: none;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.col3 {
+    padding: 5% 10%;
+    list-style: none;
+    color: var(--Good-color);
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.col3 ul li h3 {
+    color: #1a1818;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.col3 ul {
+    list-style: none;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+#avatar {
+    padding: 0;
+    margin: 0;
+}
+
+.containeur-avatar {
+    height: 450px;
+    width: 100%;
+    background-image: url('../img/seperator1-.jpg');
+    background-repeat: repeat;
+}
+
+.containeur-avatar p {
+    text-align: center;
+    color: var(--zoubida);
+}
+
+section.screenshot {
+    padding-top: 42px;
+    background-color: #f9f9f9;
+}
+
+section .screens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Tested-responsive {
+    max-width: 60%;
+    margin: 5% auto;
+}
+
+.Tested-responsive .col1 {
+    float: left;
+    width: 50%;
+}
+
+#btn-green {
+    height: 50px;
+    width: 150px;
+    background-color: var(--zoubida);
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Raleway', Arial, sans-serif;
+    border-radius: 4rem;
+}
